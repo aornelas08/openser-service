@@ -1,0 +1,610 @@
+{
+    "Descripcion": "Muestra todo los ticket de REQ e INC de todos los estatus.",
+    "Fecha": "/Date(1714540800000-0500)/",
+    "FechaEjecucion": 1,
+    "FechaInicial": "/Date(1534372013791-0500)/",
+    "FechaFinal": "/Date(1750372013791-0500)/",
+    "IdAgente": 0,
+    "IdCliente": 0,
+    "IdTipoEntidadRelacion": 0,
+    "IdTipoRol": 0,
+    "IdUsuario": 19,
+    "ReporteDetalle": [
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "IdIncidente",
+                "ColumnaBD": "IdTicket",
+                "Descripcion": "ID",
+                "Filtrar": false,
+                "IdCampoConsola": 1,
+                "Mostrar": true,
+                "Ordenar": true
+            },
+            "IdCampoConsola": 1,
+            "IdReporte": 17,
+            "IdReporteDetalle": 527,
+            "Secuencia": 1,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "FechaRegistroDT",
+                "ColumnaBD": "FechaCortaRegistro",
+                "Descripcion": "Fecha Corta Registro",
+                "Filtrar": false,
+                "IdCampoConsola": 75,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 75,
+            "IdReporte": 17,
+            "IdReporteDetalle": 528,
+            "Secuencia": 2,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "Cliente",
+                "ColumnaBD": "Cliente",
+                "Descripcion": "Cliente",
+                "Filtrar": false,
+                "IdCampoConsola": 19,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 19,
+            "IdReporte": 17,
+            "IdReporteDetalle": 529,
+            "Secuencia": 3,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "Estatus",
+                "ColumnaBD": "Estatus",
+                "Descripcion": "Estatus",
+                "Filtrar": false,
+                "IdCampoConsola": 49,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 49,
+            "IdReporte": 17,
+            "IdReporteDetalle": 530,
+            "Secuencia": 4,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "Titulo",
+                "ColumnaBD": "Titulo",
+                "Descripcion": "T\u00edtulo",
+                "Filtrar": false,
+                "IdCampoConsola": 12,
+                "Mostrar": true,
+                "Ordenar": true
+            },
+            "IdCampoConsola": 12,
+            "IdReporte": 17,
+            "IdReporteDetalle": 531,
+            "Secuencia": 5,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "IncidenteDesc",
+                "ColumnaBD": "IncidenteDesc",
+                "Descripcion": "Descripci\u00f3n",
+                "Filtrar": false,
+                "IdCampoConsola": 26,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 26,
+            "IdReporte": 17,
+            "IdReporteDetalle": 532,
+            "Secuencia": 6,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "Grupo",
+                "ColumnaBD": "Grupo",
+                "Descripcion": "Grupo",
+                "Filtrar": false,
+                "IdCampoConsola": 28,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 28,
+            "IdReporte": 17,
+            "IdReporteDetalle": 533,
+            "Secuencia": 7,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "Agente",
+                "ColumnaBD": "Agente",
+                "Descripcion": "Agente",
+                "Filtrar": false,
+                "IdCampoConsola": 30,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 30,
+            "IdReporte": 17,
+            "IdReporteDetalle": 534,
+            "Secuencia": 8,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "Solucion",
+                "ColumnaBD": "Solucion",
+                "Descripcion": "Soluci\u00f3n",
+                "Filtrar": false,
+                "IdCampoConsola": 43,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 43,
+            "IdReporte": 17,
+            "IdReporteDetalle": 535,
+            "Secuencia": 9,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "FechaCierreDT",
+                "ColumnaBD": "FechaCortaCierre",
+                "Descripcion": "Fecha Corta Cierre",
+                "Filtrar": false,
+                "IdCampoConsola": 82,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 82,
+            "IdReporte": 17,
+            "IdReporteDetalle": 536,
+            "Secuencia": 10,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "Prioridad",
+                "ColumnaBD": "Prioridad",
+                "Descripcion": "Prioridad",
+                "Filtrar": false,
+                "IdCampoConsola": 25,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 25,
+            "IdReporte": 17,
+            "IdReporteDetalle": 537,
+            "Secuencia": 11,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "ClienteGrupo",
+                "ColumnaBD": "ClienteGrupo",
+                "Descripcion": "Cliente Grupo",
+                "Filtrar": false,
+                "IdCampoConsola": 20,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 20,
+            "IdReporte": 17,
+            "IdReporteDetalle": 538,
+            "Secuencia": 12,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "Ubicacion",
+                "ColumnaBD": "Ubicacion",
+                "Descripcion": "Ubicaci\u00f3n",
+                "Filtrar": false,
+                "IdCampoConsola": 112,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 112,
+            "IdReporte": 17,
+            "IdReporteDetalle": 539,
+            "Secuencia": 13,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "Categoria",
+                "ColumnaBD": "Categoria",
+                "Descripcion": "Categor\u00eda",
+                "Filtrar": false,
+                "IdCampoConsola": 16,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 16,
+            "IdReporte": 17,
+            "IdReporteDetalle": 540,
+            "Secuencia": 17,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "Clasificacion",
+                "ColumnaBD": "Clasificacion",
+                "Descripcion": "Clasificaci\u00f3n",
+                "Filtrar": false,
+                "IdCampoConsola": 52,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 52,
+            "IdReporte": 17,
+            "IdReporteDetalle": 541,
+            "Secuencia": 15,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "TiempoCierre",
+                "ColumnaBD": "TiempoCierre(HH:MM)",
+                "Descripcion": "Tiempo Cierre (HH:MM)",
+                "Filtrar": false,
+                "IdCampoConsola": 679,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 679,
+            "IdReporte": 17,
+            "IdReporteDetalle": 542,
+            "Secuencia": 16,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "TiempoAtencion",
+                "ColumnaBD": "TiempoAtencion(HH:MM)",
+                "Descripcion": "Tiempo Atencion (HH:MM)",
+                "Filtrar": false,
+                "IdCampoConsola": 685,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 685,
+            "IdReporte": 17,
+            "IdReporteDetalle": 543,
+            "Secuencia": 17,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "TiempoSobraSLA",
+                "ColumnaBD": "TiempoSobraSLA",
+                "Descripcion": "Tiempo SobraSLA",
+                "Filtrar": false,
+                "IdCampoConsola": 68,
+                "Mostrar": true,
+                "Ordenar": true
+            },
+            "IdCampoConsola": 68,
+            "IdReporte": 17,
+            "IdReporteDetalle": 544,
+            "Secuencia": 18,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "TiempoDedicadoCierre",
+                "ColumnaBD": "TiempoDedicadoCierre(HH:MM)",
+                "Descripcion": "Tiempo Dedicado Cierre (HH:MM)",
+                "Filtrar": false,
+                "IdCampoConsola": 674,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 674,
+            "IdReporte": 17,
+            "IdReporteDetalle": 545,
+            "Secuencia": 19,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "TiempoRespuesta",
+                "ColumnaBD": "TiempoRespuesta(HH:MM)",
+                "Descripcion": "Tiempo Respuesta (HH:MM)",
+                "Filtrar": false,
+                "IdCampoConsola": 675,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 675,
+            "IdReporte": 17,
+            "IdReporteDetalle": 546,
+            "Secuencia": 20,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "TiempoSobraSLA",
+                "ColumnaBD": "TiempoSobraSLA(HH:MM)",
+                "Descripcion": "Tiempo Sobra SLA (HH:MM)",
+                "Filtrar": false,
+                "IdCampoConsola": 682,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 682,
+            "IdReporte": 17,
+            "IdReporteDetalle": 547,
+            "Secuencia": 21,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "CategoriaN1",
+                "ColumnaBD": "CategoriaN1",
+                "Descripcion": "Categor\u00c3\u00ada Nivel 1",
+                "Filtrar": true,
+                "IdCampoConsola": 114,
+                "Mostrar": true,
+                "Ordenar": true
+            },
+            "IdCampoConsola": 114,
+            "IdReporte": 17,
+            "IdReporteDetalle": 803,
+            "Secuencia": 16,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "CategoriaN2",
+                "ColumnaBD": "CategoriaN2",
+                "Descripcion": "Categor\u00eda Nivel 2",
+                "Filtrar": false,
+                "IdCampoConsola": 115,
+                "Mostrar": true,
+                "Ordenar": true
+            },
+            "IdCampoConsola": 115,
+            "IdReporte": 17,
+            "IdReporteDetalle": 549,
+            "Secuencia": 23,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "CategoriaN3",
+                "ColumnaBD": "CategoriaN3",
+                "Descripcion": "Categor\u00eda Nivel 3",
+                "Filtrar": false,
+                "IdCampoConsola": 116,
+                "Mostrar": true,
+                "Ordenar": true
+            },
+            "IdCampoConsola": 116,
+            "IdReporte": 17,
+            "IdReporteDetalle": 550,
+            "Secuencia": 24,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "CausaN1",
+                "ColumnaBD": "CausaN1",
+                "Descripcion": "Causa Nivel 1",
+                "Filtrar": false,
+                "IdCampoConsola": 204,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 204,
+            "IdReporte": 17,
+            "IdReporteDetalle": 551,
+            "Secuencia": 25,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "CausaN2",
+                "ColumnaBD": "CausaN2",
+                "Descripcion": "Causa Nivel 2",
+                "Filtrar": false,
+                "IdCampoConsola": 205,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 205,
+            "IdReporte": 17,
+            "IdReporteDetalle": 552,
+            "Secuencia": 26,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "TiempoDedicado",
+                "ColumnaBD": "TiempoDedicado(HH:MM)",
+                "Descripcion": "Tiempo Dedicado (HH:MM)",
+                "Filtrar": false,
+                "IdCampoConsola": 686,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 686,
+            "IdReporte": 17,
+            "IdReporteDetalle": 553,
+            "Secuencia": 27,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "TiempoDedicadoCierre",
+                "ColumnaBD": "TiempoDedicadoCierre",
+                "Descripcion": "Tiempo Dedicado Cierre",
+                "Filtrar": false,
+                "IdCampoConsola": 47,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 47,
+            "IdReporte": 17,
+            "IdReporteDetalle": 554,
+            "Secuencia": 28,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "FechaUltimaActividad",
+                "ColumnaBD": "FechaUltimaActividad",
+                "Descripcion": "Fecha Ultima Actividad",
+                "Filtrar": false,
+                "IdCampoConsola": 219,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 219,
+            "IdReporte": 17,
+            "IdReporteDetalle": 816,
+            "Secuencia": 29,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "MotivoPendiente",
+                "ColumnaBD": "MotivoPendiente",
+                "Descripcion": "Motivo Pendiente",
+                "Filtrar": false,
+                "IdCampoConsola": 209,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 209,
+            "IdReporte": 17,
+            "IdReporteDetalle": 817,
+            "Secuencia": 30,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "TiempoRespuestaEsperado",
+                "ColumnaBD": "TiempoRespuestaEsperado(HH:MM)",
+                "Descripcion": "Tiempo Respuesta Esperado (HH:MM)",
+                "Filtrar": false,
+                "IdCampoConsola": 680,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 680,
+            "IdReporte": 17,
+            "IdReporteDetalle": 811,
+            "Secuencia": 24,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "TiempoSolucionEsperado",
+                "ColumnaBD": "TiempoSolucionEsperado(HH:MM)",
+                "Descripcion": "Tiempo Solucion Esperado (HH:MM)",
+                "Filtrar": false,
+                "IdCampoConsola": 681,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 681,
+            "IdReporte": 17,
+            "IdReporteDetalle": 809,
+            "Secuencia": 22,
+            "TipoAgrupado": 0
+        },
+        {
+            "Agrupado": false,
+            "CampoConsola": {
+                "Activo": true,
+                "CampoBD": "TiempoSolucion",
+                "ColumnaBD": "TiempoSolucion(HH:MM)",
+                "Descripcion": "Tiempo Solucion (HH:MM)",
+                "Filtrar": false,
+                "IdCampoConsola": 677,
+                "Mostrar": true,
+                "Ordenar": false
+            },
+            "IdCampoConsola": 677,
+            "IdReporte": 17,
+            "IdReporteDetalle": 808,
+            "Secuencia": 21,
+            "TipoAgrupado": 0
+        }
+    ],
+    "ReporteFiltro": null,
+    "Titulo": "X"
+}

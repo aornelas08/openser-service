@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# IDE-specific files
+.idea/  # PyCharm
+.vscode/ # VS Code
+*.iml
+
+# Database files
+*.sqlite
+*.db
+
+# Log files
+*.log
+
+# Uploaded files or media (if applicable)
+media/
+uploads/
+
+# Configuration files with sensitive information (if applicable)
+config.py
+settings.py
+local_settings.py
+
+# Python build artifacts
+dist/
+build/
+*.egg-info/
+
+# Test-related files
+.pytest_cache/
+.coverage
+
+# Miscellaneous
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+.env
+.env.example
+.env.local
+.env.staging
