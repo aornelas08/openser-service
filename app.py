@@ -509,7 +509,9 @@ def run_openser_api():
     log_message(logging.INFO, f"Total de la ejecución de orchestrator: {end_time - start_time}")
 
 
-
+@app.route("/index", methods=['GET'])
+def index():
+    return jsonify({"message": "Index API"}), 200
 
 @app.route("/ondemand", methods=["GET"])
 def execute_report_on_demand():
@@ -541,4 +543,4 @@ def protected():
 if __name__ == "__main__":
     scheduler.add_job(func=run_openser_api, trigger='interval', minutes=60, id="run_openser_api")
     scheduler.start()
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000, debug=True)
