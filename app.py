@@ -63,8 +63,9 @@ scheduler = APScheduler()
 
 # =============== LOGGER =============== #
 # Configuración básica para los mensajes de bitácora """
+print(f"LOG_PATH {LOG_PATH}")
 logging.basicConfig(
-    filename=  LOG_PATH,
+    filename=LOG_PATH,
     filemode='a',
     format='%(asctime)s - %(levelname)s - %(message)s',
     encoding='utf-8',
