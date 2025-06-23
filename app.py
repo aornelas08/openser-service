@@ -27,7 +27,7 @@ PERIOD_OF_DAYS = os.getenv("PERIOD_OF_DAYS")
 PATH_LOGGER = os.getenv("PATH_LOGGER")
 LOG_DIRECTORY_WINDOWS = os.getenv("LOG_DIRECTORY_WINDOWS")
 LOG_FILE_WINDOWS = os.getenv("LOG_FILE_WINDOWS")
-LOG_PATH = LOG_DIRECTORY_WINDOWS + LOG_FILE_WINDOWS
+#LOG_PATH = LOG_DIRECTORY_WINDOWS + LOG_FILE_WINDOWS
 DB_USERNAME = os.getenv("DB_USERNAME")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
 DB_DATABASE = os.getenv("DB_DATABASE")
@@ -64,7 +64,7 @@ scheduler = APScheduler()
 # =============== LOGGER =============== #
 # Configuración básica para los mensajes de bitácora """
 logging.basicConfig(
-    filename=LOG_PATH,
+    filename=PATH_LOGGER,
     filemode='a',
     format='%(asctime)s - %(levelname)s - %(message)s',
     encoding='utf-8',
@@ -544,4 +544,4 @@ def protected():
 if __name__ == "__main__":
     scheduler.add_job(func=run_openser_api, trigger='interval', minutes=60, id="run_openser_api")
     scheduler.start()
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000)
