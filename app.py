@@ -33,6 +33,7 @@ DB_PASSWORD = os.getenv("DB_PASSWORD")
 DB_DATABASE = os.getenv("DB_DATABASE")
 DB_HOST = os.getenv("DB_HOST")
 DB_PORT = os.getenv("DB_PORT")
+INDEX_MSG = os.getenv("INDEX_MSG")
 
 DEFAULT_HEADERS = {
     "empresa": OPENSER_COMPANY,
@@ -511,7 +512,7 @@ def run_openser_api():
 
 @app.route("/index", methods=['GET'])
 def index():
-    return jsonify({"message": "Index API"}), 200
+    return jsonify({"message": f"Index API {INDEX_MSG}"}), 200
 
 @app.route("/ondemand", methods=["GET"])
 def execute_report_on_demand():
