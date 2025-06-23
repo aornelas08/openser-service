@@ -27,7 +27,7 @@ PERIOD_OF_DAYS = os.getenv("PERIOD_OF_DAYS")
 PATH_LOGGER = os.getenv("PATH_LOGGER")
 LOG_DIRECTORY_WINDOWS = os.getenv("LOG_DIRECTORY_WINDOWS")
 LOG_FILE_WINDOWS = os.getenv("LOG_FILE_WINDOWS")
-LOG_PATH = os.path.join(LOG_DIRECTORY_WINDOWS,LOG_FILE_WINDOWS)
+LOG_PATH = LOG_DIRECTORY_WINDOWS + LOG_FILE_WINDOWS
 DB_USERNAME = os.getenv("DB_USERNAME")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
 DB_DATABASE = os.getenv("DB_DATABASE")
@@ -63,7 +63,6 @@ scheduler = APScheduler()
 
 # =============== LOGGER =============== #
 # Configuración básica para los mensajes de bitácora """
-print(f"LOG_PATH {LOG_PATH}")
 logging.basicConfig(
     filename=LOG_PATH,
     filemode='a',
